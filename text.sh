@@ -2,6 +2,7 @@
 #
 #echo "start1"
 sudo install wget httpd -y
-sudo systemctl httpd enable 
+sudo systemctl enable httpd 
+sudo systemctl restart httpd
 echo "end"
 
